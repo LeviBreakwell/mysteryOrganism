@@ -9,7 +9,7 @@ const returnRandBase = (a = '') => {
   }
   return dnaBases[Math.floor(Math.random() * mult)];
 };
-
+ 
 // Returns a random single stand of DNA containing 15 bases
 const mockUpStrand = () => {
   const newStrand = [];
